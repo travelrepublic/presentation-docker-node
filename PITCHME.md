@@ -11,7 +11,7 @@
 
 ---
 
-### What does it isolate
+### What does it isolate?
 
 - Some examples:
 	- Processes
@@ -22,7 +22,7 @@
 
 ---
 
-### Create an image for node
+### Create an node js image
 
 - An image is a snapshot of the filesystem
 - Used to run a container
@@ -47,7 +47,7 @@ docker container run -it --rm \
 
 ---
 
-### or pull one
+### ... or pull one
 
 ```sh
 docker image pull node
@@ -73,8 +73,8 @@ docker container run -it --rm \
 
 ---
 
-### A example CI process
+### Example CI process
 
 - Review the .travis.yml file
-- Make an application change and push to the repository
+- Change the node version and push to the repository
 - Keep an eye on travis, pull the newly built image and run locally
