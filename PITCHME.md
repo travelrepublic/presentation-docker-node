@@ -76,5 +76,5 @@ docker container run -it --rm \
 ### Example CI process
 
 - Review the .travis.yml file
-- Change the node version and push to the repository
+- Change the node version to node:6 and push to the repository
 - Keep an eye on travis, pull the newly built image and run locally

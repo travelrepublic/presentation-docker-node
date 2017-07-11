@@ -7,7 +7,7 @@ notifications:
 before_script:
 - cd app
 script:
-- docker build -t travelrepublic/presentation-docker-node .
+- docker build -t travelrepublic/presentation-docker-node:$TRAVIS_BUILD_NUMBER .
 after_success:
 - docker login -u "$DOCKER_USERNAME" -p "$DOCKER_PASSWORD"
 - docker push travelrepublic/presentation-docker-node
