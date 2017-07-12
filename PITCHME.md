@@ -11,7 +11,11 @@
 
 ---
 
-### What does it isolate?
+### How do they differ from a VM
+
+![Layers](docker-layers.jpg)
+
+### What do they isolate?
 
 - Some examples:
 	- Processes
