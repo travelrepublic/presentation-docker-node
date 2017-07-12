@@ -30,7 +30,10 @@
 
 ### What is Docker?
 
-...
+- A container platform
+- A set of tools 
+- A client and a daemon
+- Other options (rkt, clearcontainer etc.)
 
 ---
 
