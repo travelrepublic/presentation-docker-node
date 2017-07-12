@@ -11,9 +11,11 @@
 
 ---
 
-### How do they differ from a VM
+### How do they differ from a VM?
 
 ![Layers](docker-layers.jpg)
+
+---
 
 ### What do they isolate?
 
@@ -26,7 +28,13 @@
 
 ---
 
-### Create an node js image
+### What is Docker?
+
+...
+
+---
+
+### Create a node js image
 
 - An image is a snapshot of the filesystem
 - Used to run a container
@@ -77,7 +85,13 @@ docker container run -it --rm \
 
 ---
 
-### Example CI process
+### A simple CI process
+
+![CI](ci.png)
+
+---
+
+### Demonstrate CI process
 
 - Review the .travis.yml file
 - Change the node version to node:6 and push to the repository
